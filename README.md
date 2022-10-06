@@ -1,2 +1,2 @@
-# m-2-task-1
+# modulo-2
 javascrip tarea 1/MindHub
