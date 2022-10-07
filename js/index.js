@@ -1,9 +1,9 @@
-let contenedor = document.getElementById("contenedorIndex");
+let contenedor = document.getElementById("container")
 
-function contenido(ccontenido) {
-    for (let event of data.events ) {
-        ccontenido.innerHTML += 
-        `
+function contenido(contenido) {
+    for (let event of events) {
+        contenido.innerHTML +=
+            `
         <div class=" colorDetexto card mb-3 p-0 rounded-5  bg-dark" style="max-width: 540px;">
             <div class="row g-0" style="height: 100%;">
                 <div class="col-md-4 ">
@@ -22,8 +22,7 @@ function contenido(ccontenido) {
                 </div>
             </div>
         </div>
-        `;
+        `
     }
 }
-
 contenido(contenedor)
